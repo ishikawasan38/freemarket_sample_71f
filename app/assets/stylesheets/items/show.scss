@@ -72,27 +72,44 @@
 
               .left1{
                 height: 47px;
-                border: 0.5px solid #dedede;          
+                border: 0.5px solid #dedede; 
+                a{
+                  line-height: 45px;
+                }         
               }
               .left2{
                 height: 47px;
-                border: 0.5px solid#dedede;              
+                border: 0.5px solid#dedede; 
+                a{
+                  line-height: 45px;
+                }         
               }
               .left3{
                 height: 47px;
-                border: 0.5px solid #dedede;              
+                border: 0.5px solid #dedede; 
+                a{
+                  line-height: 45px;
               }
               .left4{
                 height: 47px;
-                border: 0.5px solid #dedede;              
+                border: 0.5px solid #dedede; 
+                a{
+                  line-height: 45px;
+                }                      
               }
               .left5{
                 height: 47px;
-                border: 0.5px solid #dedede;              
+                border: 0.5px solid #dedede; 
+                a{
+                  line-height: 45px;
+                }                      
               }
               .left6{
                 height: 45px;
-                border: 0.5px solid #dedede;              
+                border: 0.5px solid #dedede; 
+                a{
+                  line-height: 45px;
+                }                      
               }
             }
 
@@ -171,9 +188,10 @@
               border: 1px solid #333;
               text-decoration: none;
               font-size: 14px;
-              ul{
-                margin:6px 10px;
-              }
+              margin:6px 10px;
+              // ul{
+              //   margin:6px 10px;
+              // }
               a{
                 text-decoration: none;
                 color: #333;
@@ -213,11 +231,11 @@
               border: 1px solid #3CCACE;
               color: #fff;
               width: 60%;
-              font-size: 18px;
               border-radius: 100px;
               margin: 0 auto;
               a{
                 text-decoration: none;
+                font-size: 18px;
               }
 
               // text-align: center;
