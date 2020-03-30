@@ -45,23 +45,17 @@
                     発送目安
               .table__right
                 .right1
-                  %a
-                    = @item.user
+                  = @item.user
                 .right2
-                  %a
-                    = @item.category
+                  = @item.category
                 .right3
-                  %a
-                    = @item.brand
+                  = @item.brand
                 .right4
-                  %a
-                    = @item.shipping_charges
+                  = @item.shipping_charges
                 .right5
-                  %a
-                    = @item.area
+                  = @item.area
                 .right6
-                  %a
-                    = @item.days_to_ship
+                  = @item.days_to_ship
             .tag
               - if user_signed_in? && current_user.id == @item.saler_id
                 .left
@@ -95,15 +89,11 @@
         .option__area
           .left
             = link_to "/" do
-              %a
-                ='＜前の商品'
+              ='＜前の商品'
           .right  
             = link_to "/" do
-              %a
-                ='後ろの商品＞'     
+              ='後ろの商品＞'     
         .relateditems 
-          = link_to "/" do
-            %a
-              ="商品をもっと見る"       
+          商品をもっと見る       
     .footer
       = render "/shared/footer"

@@ -8,14 +8,16 @@
   &__show{
     padding: 40px;
     margin: 0 auto;
+
     &__contents{
      width: 700px;
      margin: 0 auto;
-
       .top__contents{
+
         .item__box{
           padding: 24px 40px 40px;
           background-color: #fff;
+
           .product{
             text-align: center;
             font-weight: bold;
@@ -34,6 +36,7 @@
             text-align: center;
             display: flex;
             flex-direction: column;
+
             .price1{
               font-size: 46px;
               font-weight: bold;
@@ -45,9 +48,11 @@
           }
           .detail{
             margin-bottom: 30px;
+            // ul{
               line-height: 1.5; 
               text-decoration: none;
               font-size: 18px;
+            // }
           }
           .table{
             width: 100%;
@@ -62,7 +67,9 @@
                 font-weight: 400px;
                 border: 0.5px solid #dedede;
                 font-size: 14px;
-                text-align: center;            
+                text-align: center;
+                
+
               .left1{
                 height: 47px;
                 border: 0.5px solid #dedede; 
@@ -112,55 +119,32 @@
               border: 0.5px solid #dedede;
               font-size: 14px;
               text-align: left;
+
               .right1{
                 height: 47px;
                 border: 0.5px solid #dedede;
-                a{
-                  line-height: 45px;
-                  padding-left: 10px;
-                } 
               }
               .right2{
                 height: 47px;
                 border: 0.5px solid #dedede;
-                a{
-                  line-height: 45px;
-                  padding-left: 10px;
-                } 
+                color: #3CCACE;
               }
               .right3{
                 height: 47px;
                 border: 0.5px solid #dedede;
-                a{
-                  line-height: 45px;
-                  color: #3CCACE;
-                  padding-left: 10px;
-                }
               }
               .right4{
                 height: 47px;
                 border: 0.5px solid #dedede;
-                a{
-                  line-height: 45px;
-                  padding-left: 10px;
-                } 
               }
               .right5{
                 height: 47px;
                 border: 0.5px solid #dedede;
-                a{
-                  line-height: 45px;
-                  color: #3CCACE;
-                  padding-left: 10px;
-                } 
+                color: #3CCACE;
               }
               .right6{
                 height: 45px;
                 border: 0.5px solid #dedede;
-                a{
-                  line-height: 45px;
-                  padding-left: 10px;
-                } 
               }
             }}
           }
@@ -168,6 +152,7 @@
             display: flex;
             justify-content:space-between;
             margin-top: 20px;
+
             .left{
               margin-right: auto;
               border-radius: 40px;
@@ -205,23 +190,29 @@
               text-decoration: none;
               font-size: 14px;
               margin:6px 10px;
+              // ul{
+              //   margin:6px 10px;
+              // }
               a{
                 text-decoration: none;
                 color: #333;
               }
-     }}
+        }
+      }
         .middle__contents{
           padding: 24px;
           background-color: #fff;
           margin: 10px 0;
           text-align: center;
           color: red;
+          
           .content{
             .text{
               width: 100%;
               min-height: 104px;
               padding: 10px;
               border: 1px solid #f8f8f8;
+
               .text1{
                 width: 500px;
                 min-height: 104px;
@@ -247,6 +238,9 @@
                 text-decoration: none;
                 font-size: 18px;
               }
+
+              // text-align: center;
+              // align-items: flex-start;
             }
           }
       }
@@ -255,12 +249,15 @@
         display: flex;
         justify-content: space-between;
         color: #3CCACE;
+
         .left{
-          
+
         }
+
         .right{
-          
+
         }
+
       }
       .relateditems{
         display: block;
